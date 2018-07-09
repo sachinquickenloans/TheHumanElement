@@ -1,0 +1,30 @@
+USE BICommon
+GO
+
+BEGIN TRAN
+
+--Sensitive_TMEngagement.vwTMEngmtSurveyFact
+DROP VIEW Sensitive_TMEngagement.vwTMEngmtSurveyFact
+
+--Sensitive_TMEngagement.lTMEngmtSurveyFact
+DROP TABLE Sensitive_TMEngagement.TMEngmtSurveyFact
+
+--Sensitive_TMEngagement.TMEngmtSurveyGroupDim
+DROP TABLE Sensitive_TMEngagement.TMEngmtSurveyGroupDim
+
+--Sensitive_TMEngagement.TMEngmtSurveyDim
+DROP TABLE Sensitive_TMEngagement.TMEngmtSurveyDim
+
+--Sensitive_TMEngagement.TMEngmtSurveyAnswerDim
+DROP TABLE Sensitive_TMEngagement.TMEngmtSurveyAnswerDim
+
+--Sensitive_TMEngagement.TMEngmtSurveyQuestionDim
+DROP TABLE Sensitive_TMEngagement.TMEngmtSurveyQuestionDim
+
+--Sensitive_TMEngagement.TMEngmtSurveyTeamMemberDim
+DROP TABLE Sensitive_TMEngagement.TMEngmtSurveyTeamMemberDim
+
+
+
+COMMIT
+
